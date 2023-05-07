@@ -62,3 +62,13 @@ a{
     justify-content: space-around;
     padding: 50px;
 }
+.displaySecond{
+    display: none;
+}
+.displayFirst{
+    transform: rotate(45deg);
+}
+.displayThird{
+    transform: rotate(135deg) translate(-18px,17px);
+
+}
