@@ -4,6 +4,7 @@
     align-items: center;
     height: 150px;
     background-color:#e3dfdf;
+    transition: all 0.5s linear;
 }
 a{
     color: #2f5b91;
@@ -11,6 +12,7 @@ a{
 }
 .burger{
     display: none;
+    
 }
 .nav-img{
     height: 100px;
@@ -23,8 +25,9 @@ a{
 }
 .first, .second, .third{
     width: 50px;
-    height: 5px;
+    height: 3px;
     background-color: #2f5b91;
+    border-radius: 15%;
 }
 .second{
     width: 40px;
@@ -49,14 +52,14 @@ a{
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
-    width: 200px;
+    width: 200px; 
 }
 .notDisplay{
     display: none;
 }
 .active{
     width: 500px;
-    height: 1000px;
+    height: 800px;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -66,9 +69,10 @@ a{
     display: none;
 }
 .displayFirst{
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(20px);
+    transition: all 0.2s linear;
 }
 .displayThird{
-    transform: rotate(135deg) translate(-18px,17px);
-
+    transform: rotate(-45deg) translate(-1.5px,-20px);
+    transition: all 0.2s linear;
 }
